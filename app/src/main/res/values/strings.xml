@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HabitTracker</string>
+    <string name="save">New Habit</string>
+    <string name="date">Date:</string>
+    <string name="habit">Habit:</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="monday">Monday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="cancel">CANCEL</string>
+    <string name="addNew">ADD</string>
+
+    <string name="delete_all">Delete All</string>
+
+    <string name="complete">Complete</string>
+    <string name="resetCom">Reset</string>
+    <string name="deleteHab">DeleteHab</string>
+
+
+
+</resources>

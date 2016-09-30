@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:text="Complete Habit"
+        android:id="@+id/complete"
+        android:layout_weight="0.03"
+        android:layout_above="@+id/resetCom"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:text="Delete Habit"
+        android:id="@+id/deleteHab"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/cancel"
+        android:layout_alignStart="@+id/cancel" />
+
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:text="Reset Completions"
+        android:id="@+id/resetCom"
+        android:layout_above="@+id/deleteHab"
+        android:layout_alignLeft="@+id/complete"
+        android:layout_alignStart="@+id/complete" />
+
+    <Button
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:text="Cancel"
+        android:id="@+id/cancel"
+        android:layout_weight="0.04"
+        android:layout_below="@+id/deleteHab"
+        android:layout_alignLeft="@+id/resetCom"
+        android:layout_alignStart="@+id/resetCom" />
+</RelativeLayout>
