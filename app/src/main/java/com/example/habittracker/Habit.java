@@ -14,7 +14,8 @@ public abstract class Habit {
         this.date = date;
         this.week = week;
         this.completed = completed;
-    }
+    }//end Habit
+
 
     public void setMessage(String message) {
         this.message = message;

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HabitTracker</string>
+    <string name="app_name">yhoang1-HabitTracker</string>
     <string name="save">New Habit</string>
     <string name="date">Date:</string>
     <string name="habit">Habit:</string>
