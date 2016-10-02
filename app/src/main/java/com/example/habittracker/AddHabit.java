@@ -22,7 +22,7 @@ import java.util.Locale;
  * Created by yhoang1 on 2016-09-27.
  */
 public class AddHabit extends AppCompatActivity {
-    private static final String FILENAME = "file.sav";
+
     private EditText bodyText;
     private EditText dateText;
 
@@ -138,7 +138,7 @@ public class AddHabit extends AppCompatActivity {
     protected void saveInFile() {
 
         try {
-            FileOutputStream fos = openFileOutput(FILENAME, 0);
+            FileOutputStream fos = openFileOutput(HabitActivity.FILENAME, 0);
 
             BufferedWriter out = new BufferedWriter(new OutputStreamWriter(fos));
 
